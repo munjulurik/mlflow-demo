@@ -1,0 +1,7 @@
+name: hello_Word
+
+entry_points:
+  main:
+    parameters:
+      runName: {type: string, default: "None"}
+    command: "python hello_world.py --runName {runName}"
